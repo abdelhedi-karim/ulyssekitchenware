@@ -27,6 +27,7 @@ function Index() {
     justifyContent: "center", // Center items horizontally
     gap: "10px", // Spacing between items
     padding: "10px", // Add some padding around the container
+    backgroundColor:"#ccc"
   }}
 >
   <h1
