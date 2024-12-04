@@ -12,14 +12,7 @@ function Index() {
    
     
     <div>
-    <img
-      src="https://res.cloudinary.com/dqmhtibfm/image/upload/c_scale,w_130/v1733307254/Ulyssekitchenware__2_-removebg-preview_l8qke7.png"
-      alt="Logo"
-      style={{
-        width: "130px",
-        height: "auto",
-      }}
-    />
+   
   <div
   style={{
     display: "flex",
@@ -30,6 +23,14 @@ function Index() {
     backgroundColor:"#ccc"
   }}
 >
+<img
+      src="https://res.cloudinary.com/dqmhtibfm/image/upload/c_scale,w_130/v1733307254/Ulyssekitchenware__2_-removebg-preview_l8qke7.png"
+      alt="Logo"
+      style={{
+        width: "130px",
+        height: "auto",
+      }}
+    />
   <h1
     style={{
       backgroundColor: "#8B4513", // Marron bois
