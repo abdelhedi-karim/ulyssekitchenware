@@ -827,7 +827,7 @@ function Index() {
     />
    
       </div>
-      <p>Copyright © 2024  Ulysse Kitchen ware. All Rights Reserved. </p>
+      <p style={{color: "white"}}>Copyright © 2024  Ulysse Kitchen ware. All Rights Reserved. </p>
     </footer>
     {/* jQuery */}
     {/* Bootstrap */}
