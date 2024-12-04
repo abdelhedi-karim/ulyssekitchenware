@@ -100,7 +100,7 @@ function Index() {
   </a>
   {/* Repeat the same style for other links */}
   <a
-  href="https://wa.me/21623316988"
+  href="https://wa.me/21623316989"
   style={{
     backgroundColor: "#8B4513",
     backgroundImage:
@@ -121,7 +121,7 @@ function Index() {
   target="_blank"
   rel="noopener noreferrer"
 >
-  Contactez-nous par WhatsApp <br />📞  +216-23-316-988 
+  Contactez-nous par WhatsApp <br />📞  +216-23-316-989 
 </a>
 
   {/* Repeat the same style for other links */}
