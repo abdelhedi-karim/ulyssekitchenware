@@ -141,7 +141,7 @@ function Index() {
       padding: "10px 20px",
       flex: "1 1 calc(100% - 20px)",
       textDecoration: "none",
-      fontSize: "14px",
+      fontSize: "11px",
       maxWidth: "300px",
     }}
   >
