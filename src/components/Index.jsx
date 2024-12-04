@@ -12,7 +12,141 @@ function Index() {
    
     
     <div>
-      
+    <img
+      src="https://res.cloudinary.com/dqmhtibfm/image/upload/c_scale,w_130/v1733307254/Ulyssekitchenware__2_-removebg-preview_l8qke7.png"
+      alt="Logo"
+      style={{
+        width: "130px",
+        height: "auto",
+      }}
+    />
+  <div
+  style={{
+    display: "flex",
+    flexWrap: "wrap", // Allows items to wrap for smaller screens
+    justifyContent: "center", // Center items horizontally
+    gap: "10px", // Spacing between items
+    padding: "10px", // Add some padding around the container
+  }}
+>
+  <h1
+    style={{
+      backgroundColor: "#8B4513", // Marron bois
+      backgroundImage:
+        "linear-gradient(45deg, #8B4513 25%, #A0522D 25%, #A0522D 50%, #8B4513 50%, #8B4513 75%, #A0522D 75%, #A0522D 100%)",
+      backgroundSize: "40px 40px",
+      border: "1px solid #5A2C0D",
+      borderRadius: "8px",
+      boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+      color: "white",
+      textAlign: "center",
+      fontFamily: "'Georgia', serif",
+      padding: "10px 20px",
+      flexBasis: "100%", // Ensure it spans the full width on smaller screens
+      margin: "0 auto", // Center it
+    }}
+  >
+    Ulysse Kitchenware
+  </h1>
+
+  <a
+    href="https://www.instagram.com/ulyssekitchenware?igsh=cGh1eTZjd280N3Bx"
+    style={{
+      backgroundColor: "#8B4513",
+      backgroundImage:
+        "linear-gradient(45deg, #8B4513 25%, #A0522D 25%, #A0522D 50%, #8B4513 50%, #8B4513 75%, #A0522D 75%, #A0522D 100%)",
+      backgroundSize: "40px 40px",
+      border: "1px solid #5A2C0D",
+      borderRadius: "8px",
+      boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+      color: "white",
+      textAlign: "center",
+      fontFamily: "'Georgia', serif",
+      padding: "10px 20px",
+      flex: "1 1 calc(100% - 20px)", // Allow items to resize
+      textDecoration: "none",
+      fontSize: "14px",
+      maxWidth: "300px", // Optional, to limit item width
+    }}
+  >
+ Visitez-nous sur<br/> 
+ <img src='https://res.cloudinary.com/dqmhtibfm/image/upload/c_scale,w_15/v1733211137/AdobeStock_695832548_Preview_Editorial_Use_Only_bfmo1m.png' /> Instagram
+  </a>
+
+  {/* Repeat the same style for other links */}
+  <a
+    href="mailto:ulysse.kitchenware@gmail.com"
+    style={{
+      backgroundColor: "#8B4513",
+      backgroundImage:
+        "linear-gradient(45deg, #8B4513 25%, #A0522D 25%, #A0522D 50%, #8B4513 50%, #8B4513 75%, #A0522D 75%, #A0522D 100%)",
+      backgroundSize: "40px 40px",
+      border: "1px solid #5A2C0D",
+      borderRadius: "8px",
+      boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+      color: "white",
+      textAlign: "center",
+      fontFamily: "'Georgia', serif",
+      padding: "10px 20px",
+      flex: "1 1 calc(100% - 20px)",
+      textDecoration: "none",
+      fontSize: "14px",
+      maxWidth: "300px",
+    }}
+  >
+ 📧   Gmail: <br/>ulysse.kitchenware@gmail.com
+  </a>
+  {/* Repeat the same style for other links */}
+  <a
+  href="https://wa.me/21623316988"
+  style={{
+    backgroundColor: "#8B4513",
+    backgroundImage:
+      "linear-gradient(45deg, #8B4513 25%, #A0522D 25%, #A0522D 50%, #8B4513 50%, #8B4513 75%, #A0522D 75%, #A0522D 100%)",
+    backgroundSize: "40px 40px",
+    border: "1px solid #5A2C0D",
+    borderRadius: "8px",
+    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+    color: "white",
+    textAlign: "center",
+    fontFamily: "serif",
+    padding: "10px 20px",
+    flex: "1 1 calc(100% - 20px)",
+    textDecoration: "none",
+    fontSize: "14px",
+    maxWidth: "300px",
+  }}
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Contactez-nous par WhatsApp <br />📞  +216-23-316-988 
+</a>
+
+  {/* Repeat the same style for other links */}
+  <a
+    href=""
+    style={{
+      backgroundColor: "#8B4513",
+      backgroundImage:
+        "linear-gradient(45deg, #8B4513 25%, #A0522D 25%, #A0522D 50%, #8B4513 50%, #8B4513 75%, #A0522D 75%, #A0522D 100%)",
+      backgroundSize: "40px 40px",
+      border: "1px solid #5A2C0D",
+      borderRadius: "8px",
+      boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+      color: "white",
+      textAlign: "center",
+      fontFamily: "'Georgia', serif",
+      padding: "10px 20px",
+      flex: "1 1 calc(100% - 20px)",
+      textDecoration: "none",
+      fontSize: "14px",
+      maxWidth: "300px",
+    }}
+  >
+   📍 Address : <br />  ROUTE SALTANIA KLM 10
+  </a>
+</div>
+
       {/* ***** Main Banner Area Start ***** */}
       <div style={{
          backgroundColor: "#ccc", // Marron bois
@@ -23,77 +157,16 @@ function Index() {
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-6">
-            <img
-      src="https://res.cloudinary.com/dqmhtibfm/image/upload/c_scale,w_130/v1733307254/Ulyssekitchenware__2_-removebg-preview_l8qke7.png"
-      alt="Logo"
-      style={{
-        width: "130px",
-        height: "auto",
-      }}
-    />
+          
+    
+
             <div className="inner-content">
                  
                   
                   </div>
               <div className="left-content">
                 <div className="">
-                <h1 style={{
-                            backgroundColor: "#8B4513", // Marron bois
-         backgroundImage: "linear-gradient(45deg, #8B4513 25%, #A0522D 25%, #A0522D 50%, #8B4513 50%, #8B4513 75%, #A0522D 75%, #A0522D 100%)",
-         backgroundSize: "40px 40px", // Taille du motif
-         border: "1px solid #5A2C0D", // Bordure foncée pour l'effet
-         borderRadius: "8px", // Coins arrondis
-         boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)", // Ombre pour le relief
-         color: "white", // Couleur du texte
-         textAlign: "center", // Centrage du texte
-         fontFamily: "'Georgia', serif", // Police classique pour un effet naturel
-                    }}>Ulysse kitchen ware</h1>
-                    <a
-      href="https://www.instagram.com/ulyssekitchenware?igsh=cGh1eTZjd280N3Bx"
-      style={{
-        backgroundColor: "#8B4513", // Marron bois
-        backgroundImage:
-          "linear-gradient(45deg, #8B4513 25%, #A0522D 25%, #A0522D 50%, #8B4513 50%, #8B4513 75%, #A0522D 75%, #A0522D 100%)",
-        backgroundSize: "40px 40px", // Taille du motif
-        border: "1px solid #5A2C0D", // Bordure foncée pour l'effet
-        borderRadius: "8px", // Coins arrondis
-        boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)", // Ombre pour le relief
-        color: "white", // Couleur du texte
-        textAlign: "center", // Centrage du texte
-        fontFamily: "'Georgia', serif", // Police classique pour un effet naturel
-        padding: "10px 20px", // Espacement
-        margin: 0, // No extra margin
-        flex: "1", // Ensure buttons distribute evenly
-        textDecoration: "none", // Remove underline
-        fontSize: "14px", // Font size for readability
-      }}
-    >
-      Instagram
-    </a>
-    <a
-      href="mailto:ulysse.kitchenware@gmail.com"
-      style={{
-        backgroundColor: "#8B4513",
-        backgroundImage:
-          "linear-gradient(45deg, #8B4513 25%, #A0522D 25%, #A0522D 50%, #8B4513 50%, #8B4513 75%, #A0522D 75%, #A0522D 100%)",
-        backgroundSize: "40px 40px",
-        border: "1px solid #5A2C0D",
-        borderRadius: "8px",
-        boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
-        color: "white",
-        textAlign: "center",
-        fontFamily: "'Georgia', serif",
-        padding: "10px 20px",
-        margin: 0,
-        flex: "1",
-        textDecoration: "none",
-        fontSize: "14px",
-        marginLeft : "7px"
-      }}
-    >
-      ulysse.kitchenware@gmail.com
-    </a>
-  
+               
                   <img
   style={{
     marginTop:"20px",
