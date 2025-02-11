@@ -16,11 +16,11 @@ function Index() {
   <div
   style={{
     display: "flex",
-    flexWrap: "wrap", // Allows items to wrap for smaller screens
-    justifyContent: "center", // Center items horizontally
-    gap: "10px", // Spacing between items
+    flexWrap: "wrap", // Allows s to wrap for smaller screens
+    justifyContent: "center", // Center s horizontally
+    gap: "10px", // Spacing between s
     padding: "10px", // Add some padding around the container
-    backgroundColor:"#ccc"
+    backgroundColor:"white"
   }}
 >
 <img
@@ -33,14 +33,12 @@ function Index() {
     />
   <h1
     style={{
-      backgroundColor: "#8B4513", // Marron bois
-      backgroundImage:
-        "linear-gradient(45deg, #8B4513 25%, #A0522D 25%, #A0522D 50%, #8B4513 50%, #8B4513 75%, #A0522D 75%, #A0522D 100%)",
+      backgroundColor: "white", // Marron bois
       backgroundSize: "40px 40px",
       border: "1px solid #5A2C0D",
       borderRadius: "8px",
       boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
-      color: "white",
+      color: "#5A2C0D",
       textAlign: "center",
       fontFamily: "'Georgia', serif",
       padding: "10px 20px",
@@ -54,21 +52,20 @@ function Index() {
   <a
     href="https://www.instagram.com/ulyssekitchenware?igsh=cGh1eTZjd280N3Bx"
     style={{
-      backgroundColor: "#8B4513",
-      backgroundImage:
-        "linear-gradient(45deg, #8B4513 25%, #A0522D 25%, #A0522D 50%, #8B4513 50%, #8B4513 75%, #A0522D 75%, #A0522D 100%)",
+      backgroundColor: "white",
+     
       backgroundSize: "40px 40px",
       border: "1px solid #5A2C0D",
       borderRadius: "8px",
       boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
-      color: "white",
+      color: "#5A2C0D",
       textAlign: "center",
       fontFamily: "'Georgia', serif",
       padding: "10px 20px",
-      flex: "1 1 calc(100% - 20px)", // Allow items to resize
+      flex: "1 1 calc(100% - 20px)", // Allow s to resize
       textDecoration: "none",
       fontSize: "14px",
-      maxWidth: "300px", // Optional, to limit item width
+      maxWidth: "300px", // Optional, to limit  width
     }}
   >
  Visitez-nous sur<br/> 
@@ -79,14 +76,13 @@ function Index() {
   <a
     href="mailto:ulysse.kitchenware@gmail.com"
     style={{
-      backgroundColor: "#8B4513",
-      backgroundImage:
-        "linear-gradient(45deg, #8B4513 25%, #A0522D 25%, #A0522D 50%, #8B4513 50%, #8B4513 75%, #A0522D 75%, #A0522D 100%)",
+      backgroundColor: "white",
+     
       backgroundSize: "40px 40px",
       border: "1px solid #5A2C0D",
       borderRadius: "8px",
       boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
-      color: "white",
+      color: "#5A2C0D",
       textAlign: "center",
       fontFamily: "'Georgia', serif",
       padding: "10px 20px",
@@ -102,14 +98,12 @@ function Index() {
   <a
   href="https://wa.me/21623316989"
   style={{
-    backgroundColor: "#8B4513",
-    backgroundImage:
-      "linear-gradient(45deg, #8B4513 25%, #A0522D 25%, #A0522D 50%, #8B4513 50%, #8B4513 75%, #A0522D 75%, #A0522D 100%)",
+    backgroundColor: "white",
     backgroundSize: "40px 40px",
     border: "1px solid #5A2C0D",
     borderRadius: "8px",
     boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
-    color: "white",
+    color: "#5A2C0D",
     textAlign: "center",
     fontFamily: "serif",
     padding: "10px 20px",
@@ -128,14 +122,13 @@ function Index() {
   <a
     href=""
     style={{
-      backgroundColor: "#8B4513",
-      backgroundImage:
-        "linear-gradient(45deg, #8B4513 25%, #A0522D 25%, #A0522D 50%, #8B4513 50%, #8B4513 75%, #A0522D 75%, #A0522D 100%)",
+      backgroundColor: "white",
+     
       backgroundSize: "40px 40px",
       border: "1px solid #5A2C0D",
       borderRadius: "8px",
       boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
-      color: "white",
+      color: "#5A2C0D",
       textAlign: "center",
       fontFamily: "'Georgia', serif",
       padding: "10px 20px",
@@ -149,117 +142,15 @@ function Index() {
   </a>
 </div>
 
-      {/* ***** Main Banner Area Start ***** */}
-      <div style={{
-         backgroundColor: "#ccc", // Marron bois
-       
-       
-      }}>
-        
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col-lg-6">
-          
     
-
-            <div className="inner-content">
-                 
-                  
-                  </div>
-              <div className="left-content">
-                <div className="">
-               
-                  <img
-  style={{
-    marginTop:"20px",
-    maxWidth: "100%", // Makes the image fit the container
-    height: "auto",   // Maintains aspect ratio
-    display: "block", // Removes extra space below the image
-    borderRadius: "8px", // Optional: Adds rounded corners
-    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)", // Optional: Adds a shadow
-  }}
-  src="https://res.cloudinary.com/dqmhtibfm/image/upload/c_scale,h_500,w_750/v1733180651/Capture_d_%C3%A9cran_24-11-2024_16170_i.etsystatic.com_xyyvrp.jpg"
-  alt="Responsive"
-/>
-
-                </div>
-              </div>
-           
-            </div>
-            <div className="col-lg-6">
-              <div className="right-content">
-                
-                <div className="row" style={{marginTop:"150px" , marginLeft:"18px"}}>
-                <center><h1 style={{color:"#8B4513"}}>Top ventes</h1></center> 
-                  <div className="col-lg-6">
-                    <div className="right-first-image">
-                   
-                      <div className="thumb">
-                     
-                        <img src="https://res.cloudinary.com/dqmhtibfm/image/upload/c_scale,h_200,w_300/v1733180488/Capture_d_%C3%A9cran_24-11-2024_155018_www.tunisianolivewood.com-removebg-preview_y1mbbn.png" />
-                        <h1 style={{color:"black",
-                   textAlign: "center", // Centrage du texte
-                   fontFamily: "serif", // Police classique pour un effet naturel
-                 }}>
-                    A-001
-                  </h1>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="right-first-image">
-                      <div className="thumb">
-                       
-                        <img src="https://res.cloudinary.com/dqmhtibfm/image/upload/c_scale,h_200,w_300/v1733180492/Capture_d_%C3%A9cran_24-11-2024_16317_www.tunisianolivewood.com-removebg-preview_uddmpe.png" />
-                        <h1 style={{color:"black",
-                   textAlign: "center", // Centrage du texte
-                   fontFamily: "serif", // Police classique pour un effet naturel
-                 }}>A-002</h1>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="right-first-image">
-                      <div className="thumb">
-                      
-                        <img src="https://res.cloudinary.com/dqmhtibfm/image/upload/c_scale,h_200,w_300/v1733180493/Capture_d_%C3%A9cran_24-11-2024_1608_www.tunisianolivewood.com-removebg-preview_hrrou9.png" />
-                        <h1 style={{color:"black",
-                   textAlign: "center", // Centrage du texte
-                   fontFamily: "serif", // Police classique pour un effet naturel
-                 }}>A-003</h1>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="right-first-image">
-                      <div className="thumb">
-                      
-                        <img src="https://res.cloudinary.com/dqmhtibfm/image/upload/c_scale,h_200,w_300/v1733180546/Capture_d_%C3%A9cran_24-11-2024_164934_oliveswood.com-removebg-preview_jz6nn4.png" />
-                        <h1 style={{color:"black",
-                   textAlign: "center", // Centrage du texte
-                   fontFamily: "serif", // Police classique pour un effet naturel
-                 }}>A-004</h1>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* ***** Main Banner Area End ***** */}
-      {/* ***** Men Area Starts ***** */}
-     
     
 
                 
               
       
     <center>  <section className="section" id="men" style={{
-            backgroundColor: "#8B4513", // Marron bois
-         backgroundImage: "linear-gradient(45deg, #8B4513 25%, #A0522D 25%, #A0522D 50%, #8B4513 50%, #8B4513 75%, #A0522D 75%, #A0522D 100%)",
+            backgroundColor: "white", // Marron bois
+    
          backgroundSize: "40px 40px", // Taille du motif
          border: "1px solid #5A2C0D", // Bordure foncée pour l'effet
          borderRadius: "8px", // Coins arrondis
@@ -269,7 +160,7 @@ function Index() {
          fontFamily: "'Georgia', serif", // Police classique pour un effet naturel
     }}>
         <div className="container">
-          <h1>Tous les produits </h1>
+          <h1 style={{color:"black"}}>Tous les produits </h1>
           <div className="row">
             <div className="col-lg-6">
               <div className="section-heading">
@@ -283,9 +174,69 @@ function Index() {
              <div></div>
              <div className="col-lg-12">
                <div className='containe123'>
+        <center>       <div className="col-lg-6">
+                    <div className="right-first-image">
+                   
+                      <div className="">
+                     
+                        <img src="https://res.cloudinary.com/dqmhtibfm/image/upload/c_scale,h_200,w_300/v1733180488/Capture_d_%C3%A9cran_24-11-2024_155018_www.tunisianolivewood.com-removebg-preview_y1mbbn.png" />
+                        <h1 style={{color:"black",
+                   textAlign: "center", // Centrage du texte
+                   fontFamily: "serif", // Police classique pour un effet naturel
+                 }}>
+                    A-001
+                  </h1>
+                      </div>
+                    </div>
+                  </div> </center>
+                
                  <div className='grid-container' >
+                  
+                  
+                 <div className="" style={{
+          marginLeft:"1px"}}>
+                    
+                     <div className="thumb" >
+                     
+                       <img src="https://res.cloudinary.com/dqmhtibfm/image/upload/c_scale,h_200,w_300/v1733180492/Capture_d_%C3%A9cran_24-11-2024_16317_www.tunisianolivewood.com-removebg-preview_uddmpe.png" alt="" />
+                     </div>
+                  <h1 style={{color:"black" ,  textAlign: "center", // Centrage du texte
+         fontFamily: "serif"
+          }}>
+                    A-002
+                  </h1>
+                   </div>
+                   
+                   <div className="" style={{
+          marginLeft:"1px"}}>
+                    
+                     <div className="thumb" >
+                     
+                       <img src="https://res.cloudinary.com/dqmhtibfm/image/upload/c_scale,h_200,w_300/v1733180493/Capture_d_%C3%A9cran_24-11-2024_1608_www.tunisianolivewood.com-removebg-preview_hrrou9.png" alt="" />
+                     </div>
+                  <h1 style={{color:"black" ,  textAlign: "center", // Centrage du texte
+         fontFamily: "serif"
+          }}>
+                    A-003
+                  </h1>
+                   </div>
+                   
+                   <div className="" style={{
+          marginLeft:"1px"}}>
+                    
+                     <div className="thumb" >
+                     
+                       <img src="https://res.cloudinary.com/dqmhtibfm/image/upload/c_scale,h_200,w_300/v1733180546/Capture_d_%C3%A9cran_24-11-2024_164934_oliveswood.com-removebg-preview_jz6nn4.png" alt="" />
+                     </div>
+                  <h1 style={{color:"black" ,  textAlign: "center", // Centrage du texte
+         fontFamily: "serif"
+          }}>
+                    A-004
+                  </h1>
+                   </div>
+                   
                  
-                   <div className="item" style={{
+                   <div className="" style={{
           marginLeft:"1px"}}>
                     
                      <div className="thumb" >
@@ -298,7 +249,7 @@ function Index() {
                     A-005
                   </h1>
                    </div>
-                  <div className="item" style={{
+                  <div className="" style={{
           marginLeft:"1px"}}>
                      <div className="thumb">
                  
@@ -312,7 +263,7 @@ function Index() {
                     A-006
                   </h1>
                    </div>
-                  <div className="item" style={{
+                  <div className="" style={{
           marginLeft:"1px"}}>
                      <div className="thumb">
                      
@@ -328,7 +279,7 @@ function Index() {
                  </div>
                  <div className='grid-container' >
                  
-                <div className="item" style={{
+                <div className="" style={{
           marginLeft:"1px"}}>
                    <div className="thumb">
                  
@@ -341,7 +292,7 @@ function Index() {
                    A-008
                  </h1>
                  </div>
-                <div className="item" style={{
+                <div className="" style={{
           marginLeft:"1px"}}>
                    <div className="thumb">
                     
@@ -355,7 +306,7 @@ function Index() {
                    A-009
                  </h1>
                  </div>
-                <div className="item" style={{
+                <div className="" style={{
           marginLeft:"1px"}}>
                    <div className="thumb">
                 
@@ -371,7 +322,7 @@ function Index() {
                </div>
                  <div className='grid-container'>
                  
-                <div className="item" style={{
+                <div className="" style={{
           marginLeft:"1px"}}>
                    <div className="thumb">
                     
@@ -384,7 +335,7 @@ function Index() {
                    A-011
                  </h1>
                  </div>
-                <div className="item" style={{
+                <div className="" style={{
           marginLeft:"1px"}}>
                    <div className="thumb">
                   
@@ -397,7 +348,7 @@ function Index() {
                    A-012
                  </h1>
                  </div>
-                <div className="item" style={{
+                <div className="" style={{
           marginLeft:"1px"}}>
                    <div className="thumb">
                
@@ -413,7 +364,7 @@ function Index() {
                </div>
                <div className='grid-container' >
                  
-                 <div className="item"  style={{
+                 <div className=""  style={{
           marginLeft:"1px"}}>
                   
                    <div className="thumb" >
@@ -427,7 +378,7 @@ function Index() {
                   A-014
                 </h1>
                  </div>
-                <div className="item" style={{
+                <div className="" style={{
           marginLeft:"1px"}}>
                    <div className="thumb">
                
@@ -440,7 +391,7 @@ function Index() {
                   A-015
                 </h1>
                  </div>
-                <div className="item" style={{
+                <div className="" style={{
           marginLeft:"1px"}}>
                    <div className="thumb">
                    
@@ -456,7 +407,7 @@ function Index() {
                </div>
                <div className='grid-container' >
                
-              <div className="item" style={{
+              <div className="" style={{
           marginLeft:"1px"}}>
                  <div className="thumb">
                
@@ -469,7 +420,7 @@ function Index() {
                  A-017
                </h1>
                </div>
-              <div className="item" style={{
+              <div className="" style={{
           marginLeft:"1px"}}>
                  <div className="thumb">
                   
@@ -483,7 +434,7 @@ function Index() {
                  A-018
                </h1>
                </div>
-              <div className="item" style={{
+              <div className="" style={{
           marginLeft:"1px"}}>
                  <div className="thumb">
               
@@ -499,7 +450,7 @@ function Index() {
              </div>
                <div className='grid-container'>
                
-              <div className="item" style={{
+              <div className="" style={{
           marginLeft:"1px"}}>
                  <div className="thumb">
                   
@@ -512,7 +463,7 @@ function Index() {
                  A-020
                </h1>
                </div>
-              <div className="item" style={{
+              <div className="" style={{
           marginLeft:"1px"}}>
                  <div className="thumb">
                 
@@ -525,7 +476,7 @@ function Index() {
                  A-021
                </h1>
                </div>
-              <div className="item" style={{
+              <div className="" style={{
           marginLeft:"1px"}}>
                  <div className="thumb">
              
@@ -541,7 +492,7 @@ function Index() {
              </div>
              <div className='grid-container' >
                  
-                 <div className="item"  style={{
+                 <div className=""  style={{
           marginLeft:"1px"}}>
                   
                    <div className="thumb" >
@@ -555,7 +506,7 @@ function Index() {
                   A-023
                 </h1>
                  </div>
-                <div className="item" style={{
+                <div className="" style={{
           marginLeft:"1px"}}>
                    <div className="thumb">
                
@@ -568,7 +519,7 @@ function Index() {
                   A-024
                 </h1>
                  </div>
-                <div className="item" style={{
+                <div className="" style={{
           marginLeft:"1px"}}>
                    <div className="thumb">
                    
@@ -584,7 +535,7 @@ function Index() {
                </div>
                <div className='grid-container' >
                
-              <div className="item" style={{
+              <div className="" style={{
           marginLeft:"1px"}}>
                  <div className="thumb">
                
@@ -597,7 +548,7 @@ function Index() {
                  A-026
                </h1>
                </div>
-              <div className="item" style={{
+              <div className="" style={{
           marginLeft:"1px"}}>
                  <div className="thumb">
                   
@@ -611,7 +562,7 @@ function Index() {
                  A-027
                </h1>
                </div>
-              <div className="item" style={{
+              <div className="" style={{
           marginLeft:"1px"}}>
                  <div className="thumb">
               
@@ -627,7 +578,7 @@ function Index() {
              </div>
                <div className='grid-container'>
                
-              <div className="item" style={{
+              <div className="" style={{
           marginLeft:"1px"}}>
                  <div className="thumb">
                   
@@ -640,7 +591,7 @@ function Index() {
                  A-029
                </h1>
                </div>
-              <div className="item" style={{
+              <div className="" style={{
           marginLeft:"1px"}}>
                  <div className="thumb">
                 
@@ -653,7 +604,7 @@ function Index() {
                  A-030
                </h1>
                </div>
-              <div className="item" style={{
+              <div className="" style={{
           marginLeft:"1px"}}>
                  <div className="thumb">
              
@@ -669,7 +620,7 @@ function Index() {
              </div>
              <div className='grid-container' >
                  
-                 <div className="item"  style={{
+                 <div className=""  style={{
           marginLeft:"1px"}}>
                   
                    <div className="thumb" >
@@ -683,7 +634,7 @@ function Index() {
                   A-032
                 </h1>
                  </div>
-                <div className="item" style={{
+                <div className="" style={{
           marginLeft:"1px"}}>
                    <div className="thumb">
                
@@ -696,7 +647,7 @@ function Index() {
                   A-033
                 </h1>
                  </div>
-                <div className="item" style={{
+                <div className="" style={{
           marginLeft:"1px"}}>
                    <div className="thumb">
                    
@@ -712,7 +663,7 @@ function Index() {
                </div>
                <div className='grid-container' >
                
-              <div className="item" style={{
+              <div className="" style={{
           marginLeft:"1px"}}>
                  <div className="thumb">
                
@@ -725,7 +676,7 @@ function Index() {
                  A-035
                </h1>
                </div>
-              <div className="item" style={{
+              <div className="" style={{
           marginLeft:"1px"}}>
                  <div className="thumb">
                   
@@ -739,7 +690,7 @@ function Index() {
                  A-036
                </h1>
                </div>
-              <div className="item" style={{
+              <div className="" style={{
           marginLeft:"1px"}}>
                  <div className="thumb">
               
@@ -755,7 +706,7 @@ function Index() {
              </div>
                <div className='grid-container'>
                
-              <div className="item" style={{
+              <div className="" style={{
           marginLeft:"1px"}}>
                  <div className="thumb">
                   
@@ -768,7 +719,7 @@ function Index() {
                  A-038
                </h1>
                </div>
-              <div className="item" style={{
+              <div className="" style={{
           marginLeft:"1px"}}>
                  <div className="thumb">
                 
@@ -781,7 +732,7 @@ function Index() {
                  A-039
                </h1>
                </div>
-              <div className="item" style={{
+              <div className="" style={{
           marginLeft:"1px"}}>
                  <div className="thumb">
              
