@@ -659,7 +659,7 @@ function Index() {
     {/* ***** Subscribe Area Ends ***** */}
     {/* ***** Footer Start ***** */}
     <footer>
-      <div className="container">
+      
       <img
       src="https://res.cloudinary.com/dqmhtibfm/image/upload/c_scale,w_130/v1733307254/Ulyssekitchenware__2_-removebg-preview_l8qke7.png"
       alt="Logo"
@@ -669,8 +669,8 @@ function Index() {
       }}
     />
    
-      </div>
-      <p style={{color: "white"}}>Copyright © 2024  Ulysse Kitchen ware. All Rights Reserved. </p>
+     
+      <p style={{color: "white"}}>Copyright © 2025  Ulysse Kitchen ware. All Rights Reserved. </p>
     </footer>
     {/* jQuery */}
     {/* Bootstrap */}
