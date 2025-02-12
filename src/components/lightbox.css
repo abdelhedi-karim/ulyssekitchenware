@@ -2,70 +2,94 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
-  padding: 10px;
+  gap: 20px;
+  padding: 20px;
   background-color: white;
   text-align: center;
 }
 
 .logo {
-  width: 130px;
+  width: 200px;
   height: auto;
 }
 
+/* Bigger title for better readability */
 .title {
   background-color: white;
-  border: 1px solid #5A2C0D;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 3px solid #5A2C0D;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
   color: #5A2C0D;
   font-family: 'Georgia', serif;
-  padding: 10px 20px;
+  padding: 20px 30px;
   margin: 0 auto;
   width: 100%;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 .contact-link {
   background-color: white;
-  border: 1px solid #5A2C0D;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 3px solid #5A2C0D;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
   color: #5A2C0D;
   font-family: 'Georgia', serif;
-  padding: 10px 20px;
+  padding: 20px 30px;
   text-decoration: none;
-  font-size: 14px;
-  max-width: 300px;
+  font-size: 22px;
+  max-width: 600px;
   width: 100%;
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out;
+  letter-spacing: 1px;
+}
+
+.contact-link:hover {
+  transform: scale(1.07);
 }
 
 .contact-link img {
-  width: 15px;
+  width: 24px;
   vertical-align: middle;
-  margin-left: 5px;
+  margin-left: 8px;
 }
 
-/* Responsive Design */
+/* Responsive: Bigger for phones */
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
     align-items: center;
+    gap: 25px;
+  }
+
+  .logo {
+    width: 220px;
+  }
+
+  .title {
+    font-size: 36px;
+    padding: 25px;
   }
 
   .contact-link {
-    width: 90%;
-    font-size: 13px;
+    width: 95%;
+    font-size: 24px;
+    padding: 25px 40px;
   }
 }
 
+/* Even bigger for very small phones */
 @media (max-width: 480px) {
   .title {
-    font-size: 16px;
+    font-size: 40px;
+    padding: 30px;
   }
 
   .contact-link {
-    font-size: 12px;
-    padding: 8px 15px;
+    font-size: 26px;
+    padding: 28px 45px;
   }
 }
 

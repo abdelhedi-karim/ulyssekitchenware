@@ -38,8 +38,7 @@ function Index() {
     📍 Address : <br /> TUNIS, SFAX, ROUTE SALTANIA KLM 10
   </a>
 </div>
-                
-              
+  
       
     <center>  <section className="section" id="men" style={{
             backgroundColor: "white", // Marron bois
