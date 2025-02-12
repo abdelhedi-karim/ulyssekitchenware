@@ -1,3 +1,75 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+}
+
+.logo {
+  width: 130px;
+  height: auto;
+}
+
+.title {
+  background-color: white;
+  border: 1px solid #5A2C0D;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #5A2C0D;
+  font-family: 'Georgia', serif;
+  padding: 10px 20px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.contact-link {
+  background-color: white;
+  border: 1px solid #5A2C0D;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #5A2C0D;
+  font-family: 'Georgia', serif;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 14px;
+  max-width: 300px;
+  width: 100%;
+}
+
+.contact-link img {
+  width: 15px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-link {
+    width: 90%;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 16px;
+  }
+
+  .contact-link {
+    font-size: 12px;
+    padding: 8px 15px;
+  }
+}
+
+
 html.lb-disable-scrolling {
   overflow: hidden;
   /* Position fixed required for iOS. Just putting overflow: hidden; on the body is not enough. */

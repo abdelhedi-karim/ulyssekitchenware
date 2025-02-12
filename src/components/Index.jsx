@@ -12,139 +12,32 @@ function Index() {
    
     
     <div>
-   
-  <div
-  style={{
-    display: "flex",
-    flexWrap: "wrap", // Allows s to wrap for smaller screens
-    justifyContent: "center", // Center s horizontally
-    gap: "10px", // Spacing between s
-    padding: "10px", // Add some padding around the container
-    backgroundColor:"white"
-  }}
->
-<img
-      src="https://res.cloudinary.com/dqmhtibfm/image/upload/c_scale,w_130/v1733307254/Ulyssekitchenware__2_-removebg-preview_l8qke7.png"
-      alt="Logo"
-      style={{
-        width: "130px",
-        height: "auto",
-      }}
-    />
-  <h1
-    style={{
-      backgroundColor: "white", // Marron bois
-      backgroundSize: "40px 40px",
-      border: "1px solid #5A2C0D",
-      borderRadius: "8px",
-      boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
-      color: "#5A2C0D",
-      textAlign: "center",
-      fontFamily: "'Georgia', serif",
-      padding: "10px 20px",
-      flexBasis: "100%", // Ensure it spans the full width on smaller screens
-      margin: "0 auto", // Center it
-    }}
-  >
-    Ulysse Kitchenware
-  </h1>
+    <div className="container">
+  <img
+    src="https://res.cloudinary.com/dqmhtibfm/image/upload/c_scale,w_130/v1733307254/Ulyssekitchenware__2_-removebg-preview_l8qke7.png"
+    alt="Logo"
+    className="logo"
+  />
 
-  <a
-    href="https://www.instagram.com/ulyssekitchenware?igsh=cGh1eTZjd280N3Bx"
-    style={{
-      backgroundColor: "white",
-     
-      backgroundSize: "40px 40px",
-      border: "1px solid #5A2C0D",
-      borderRadius: "8px",
-      boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
-      color: "#5A2C0D",
-      textAlign: "center",
-      fontFamily: "'Georgia', serif",
-      padding: "10px 20px",
-      flex: "1 1 calc(100% - 20px)", // Allow s to resize
-      textDecoration: "none",
-      fontSize: "14px",
-      maxWidth: "300px", // Optional, to limit  width
-    }}
-  >
- Visitez-nous sur<br/> 
- <img src='https://res.cloudinary.com/dqmhtibfm/image/upload/c_scale,w_15/v1733211137/AdobeStock_695832548_Preview_Editorial_Use_Only_bfmo1m.png' /> Instagram
+  <h1 className="title">Ulysse Kitchenware</h1>
+
+  <a href="https://www.instagram.com/ulyssekitchenware?igsh=cGh1eTZjd280N3Bx" className="contact-link">
+    Visitez-nous sur <br />
+    <img src="https://res.cloudinary.com/dqmhtibfm/image/upload/c_scale,w_15/v1733211137/AdobeStock_695832548_Preview_Editorial_Use_Only_bfmo1m.png" alt="Instagram" /> Instagram
   </a>
 
-  {/* Repeat the same style for other links */}
-  <a
-    href="mailto:ulysse.kitchenware@gmail.com"
-    style={{
-      backgroundColor: "white",
-     
-      backgroundSize: "40px 40px",
-      border: "1px solid #5A2C0D",
-      borderRadius: "8px",
-      boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
-      color: "#5A2C0D",
-      textAlign: "center",
-      fontFamily: "'Georgia', serif",
-      padding: "10px 20px",
-      flex: "1 1 calc(100% - 20px)",
-      textDecoration: "none",
-      fontSize: "14px",
-      maxWidth: "300px",
-    }}
-  >
- 📧   Gmail: <br/>ulysse.kitchenware@gmail.com
+  <a href="mailto:ulysse.kitchenware@gmail.com" className="contact-link">
+    📧 Gmail: <br /> ulysse.kitchenware@gmail.com
   </a>
-  {/* Repeat the same style for other links */}
-  <a
-  href="https://wa.me/21623316989"
-  style={{
-    backgroundColor: "white",
-    backgroundSize: "40px 40px",
-    border: "1px solid #5A2C0D",
-    borderRadius: "8px",
-    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
-    color: "#5A2C0D",
-    textAlign: "center",
-    fontFamily: "serif",
-    padding: "10px 20px",
-    flex: "1 1 calc(100% - 20px)",
-    textDecoration: "none",
-    fontSize: "14px",
-    maxWidth: "300px",
-  }}
-  target="_blank"
-  rel="noopener noreferrer"
->
-  Contactez-nous par WhatsApp <br />📞  +216-23-316-989 
-</a>
 
-  {/* Repeat the same style for other links */}
-  <a
-    href=""
-    style={{
-      backgroundColor: "white",
-     
-      backgroundSize: "40px 40px",
-      border: "1px solid #5A2C0D",
-      borderRadius: "8px",
-      boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
-      color: "#5A2C0D",
-      textAlign: "center",
-      fontFamily: "'Georgia', serif",
-      padding: "10px 20px",
-      flex: "1 1 calc(100% - 20px)",
-      textDecoration: "none",
-      fontSize: "11px",
-      maxWidth: "300px",
-    }}
-  >
-   📍 Address : <br /> TUNIS , SFAX , ROUTE SALTANIA KLM 10
+  <a href="https://wa.me/21623316989" className="contact-link" target="_blank" rel="noopener noreferrer">
+    Contactez-nous par WhatsApp <br /> 📞 +216-23-316-989
+  </a>
+
+  <a href="" className="contact-link">
+    📍 Address : <br /> TUNIS, SFAX, ROUTE SALTANIA KLM 10
   </a>
 </div>
-
-    
-    
-
                 
               
       
